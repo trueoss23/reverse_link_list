@@ -27,6 +27,7 @@ class ListSingleType:
         while current:
             print(current.data, end=' ')
             current = current.next
+        print()
 
     def add_to_tail(self, value: Any) -> None:
         if self.is_empty():
@@ -78,3 +79,4 @@ class ListSingleType:
                 return True
             current = current.next
         return False
+
