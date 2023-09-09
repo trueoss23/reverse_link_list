@@ -7,6 +7,7 @@ if __name__ == "__main__":
     x.add_to_tail(1)
     x.add_to_tail(2)
     x.add_to_tail(3)
+    x.add_to_tail(4)
     x.vision_list()
     x = reverse_list(x)
     print()
